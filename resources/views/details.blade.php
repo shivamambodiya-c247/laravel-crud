@@ -64,7 +64,7 @@
                         <div class="alert alert-success">{{ session('success') }}</div>
                     @endif
                     <div>
-                        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                        <textarea name="comment" id="" cols="30" rows="30"></textarea>
                         <input type="hidden" name="contributor_id" value="{{ $contributor->id }}">
                     </div>
 
